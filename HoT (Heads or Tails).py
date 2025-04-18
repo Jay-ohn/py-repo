@@ -1,4 +1,5 @@
 import random
+import time
 
 Choice = input("Heads or Tails? H/T: ").upper()
 User_choice = "HEADS" if Choice == "H" else "TAILS" \
@@ -22,4 +23,5 @@ elif User_choice == Computer_choice:
 else:
     print("You lose!")
 
-Exit = input("\nExit...")
+time.sleep(3)
+exit()
