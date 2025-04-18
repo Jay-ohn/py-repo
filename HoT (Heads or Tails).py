@@ -23,5 +23,5 @@ elif User_choice == Computer_choice:
 else:
     print("You lose!")
 
-time.sleep(3)
+time.sleep(3) 
 exit()
