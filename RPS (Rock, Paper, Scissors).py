@@ -48,5 +48,5 @@ print("You win!" if (user_choice == 0 and computer_choice == 2) or
       "It's a draw!" if user_choice == computer_choice else
       "You lose! Go home and practice more!")
 
-time.sleep(3)
+time.sleep(3) 
 exit()
